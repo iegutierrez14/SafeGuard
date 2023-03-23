@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  height: auto;
+}
+
+body {
+  background-color: aqua;
+}/*# sourceMappingURL=main.css.map */

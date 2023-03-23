@@ -1,9 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .navbar-brand{
     img{
-        height: 100%;
-    }
-  }
+        max-height: 50px;
+        height: auto;
+    } 
+}
 
 body{
-    background-color: black;
+    background-color: aqua;
 }
