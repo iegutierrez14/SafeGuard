@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./sass/main.css">
     <link rel="stylesheet" href="./sass/main.scss">
 
+    <link rel="stylesheet" href="./javascript/slider.js">
+
 </head>
 <body>
     
@@ -44,26 +46,47 @@
           </ul>
         </div>
       </nav>
-
       
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="container">
+        <h1>Este es el título</h1>
+        <div class="content">
+          <p>Este es un pequeño párrafo.</p>
+          <img src="/images/iconos_logo/logo.png" alt="Logo">
+        </div>
+      </div>
+      
+      <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="/images/carrusel/fly-d-zAhAUSdRLJ8-unsplash.jpg" alt="First slide">
+            <img src="/images/carrusel/fly-d-zAhAUSdRLJ8-unsplash.jpg" class="d-block w-50" alt="img1">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="/images/carrusel/matthew-henry-fPxOowbR6ls-unsplash.jpg" alt="Second slide">
+            <img src="/images/carrusel/matthew-henry-fPxOowbR6ls-unsplash.jpg" class="d-block w-50" alt="img2">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="/images/carrusel/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg" alt="Third slide">
+            <img src="/images/carrusel/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg" class="d-block w-50" alt="img3">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/carrusel/towfiqu-barbhuiya-em5w9_xj3uU-unsplash.jpg" class="d-block w-50" alt="img4">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/carrusel/towfiqu-barbhuiya-FnA5pAzqhMM-unsplash.jpg" class="d-block w-50" alt="img5">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
       
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slider.js"></script>
 
 
 </body>
