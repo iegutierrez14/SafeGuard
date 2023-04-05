@@ -15,6 +15,7 @@ body{
     background-color: aqua;
 }
 
+/* Contenedor index */
 .container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -32,11 +33,30 @@ img{
   max-width: 100%;
   height: auto;
 }
-    /* Carrusel */
-    .carousel-inner {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      height: 400px;
-    }
-    
+
+/* Aplicando fuente en contenedor */
+
+#titulo_index{
+  font-family: 'Raleway', sans-serif;
+  font-size: 350%;
+  font-weight: 800;
+}
+#parrafo_index{
+  font-family: 'Quicksand',sans-serif;
+  font-size: 103%;
+  font-weight: 550;
+}
+#parrafo__secundario{
+  font-family: 'Quicksand',sans-serif;
+  font-size: 150%;
+  font-weight: 600;
+  color: rgb(0, 162, 255);
+}
+
+
+
+
+/* Animacion del carrusel */
+ .carousel-item {
+  transition: opacity 1s ease-in-out;
+}
