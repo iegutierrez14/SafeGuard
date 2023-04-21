@@ -16,7 +16,7 @@ body{
 }
 
 /* Contenedor index */
-.container{
+.inicio{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
@@ -59,4 +59,30 @@ img{
 /* Animacion del carrusel */
  .carousel-item {
   transition: opacity 1s ease-in-out;
+}
+
+/* Caracteristicas index */
+.img_en_fila{
+  max-width: 100px;
+}
+
+/* Correccion de iconos OS */
+.cobertura_os{
+  width: 16px;
+  height: 16px;
+  opacity: 50%;
+  margin: 2%;
+}
+
+/* Quitar borde debajo de botones "Comprar" */
+
+.no_linea{
+  border-bottom: none;
+}
+
+.fa-times{
+  color: red;
+}
+.fa-check{
+  color: green;
 }
