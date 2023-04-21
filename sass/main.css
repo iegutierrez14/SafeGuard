@@ -82,4 +82,10 @@ img {
 
 .fa-check {
   color: green;
+}
+
+/* Preguntas frecuentes */
+.preguntas_frecuentes {
+  border-collapse: separate;
+  border-spacing: 20px;
 }/*# sourceMappingURL=main.css.map */
